@@ -1,4 +1,4 @@
-# exercicio-aula02
+# Exercício 2 - Tópicos Avançados POO
 Exercício proposto na matéria de Tópicos Avançados em OO (FHO - Fundação Hermínio Ometto, Araras - SP), sendo desenvolvido em C++.
  
 A proposta feito pelo professor consiste nos seguintes itens:
