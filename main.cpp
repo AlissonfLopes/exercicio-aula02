@@ -80,6 +80,4 @@ int main()
     cout<<areaCilindro<< endl;
     cout<<volCilindro<< endl;
 
-    // Sobrecarga nos operadores
-    cout==cil1;
 }
