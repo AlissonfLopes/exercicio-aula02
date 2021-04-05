@@ -15,6 +15,9 @@ int main()
     cout<<areaQuadrado<< endl;
     cout<<perimetroQuadrado<< endl;
 
+    // Sobrecarga nos operadores
+    cout>>quad1;
+
     // Exemplo Circulo
     Circulo circ1(3);
 
@@ -32,6 +35,9 @@ int main()
     cout<<"-------------------------------- Exemplo Retangulo ---------------------------------\n"<< endl;
     cout<<areaRetangulo<< endl;
     cout<<perimetroRetangulo<< endl;
+
+    // Sobrecarga nos operadores
+    cout>>ret1;
 
     // Exemplo Triangulo
     Triangulo tri1(8, 3);
@@ -51,12 +57,18 @@ int main()
     cout<<areaCubo<< endl;
     cout<<volCubo<< endl;
 
+    // Sobrecarga nos operadores
+    cout<<cub1;
+
     //Exemplo Cone
     Cone con1(8, 4);
 
     float volCone = con1.calculaVolumeCone();
     cout<<"-------------------------------- Exemplo Cone ---------------------------------\n"<< endl;
     cout<<volCone<< endl;
+
+    // Sobrecarga nos operadores
+    cout==con1;
 
     //Exemplo Cilindro
     Cilindro cil1(10, 2);
@@ -67,4 +79,7 @@ int main()
     cout<<"-------------------------------- Exemplo Cilindro ---------------------------------\n"<< endl;
     cout<<areaCilindro<< endl;
     cout<<volCilindro<< endl;
+
+    // Sobrecarga nos operadores
+    cout==cil1;
 }

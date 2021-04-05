@@ -1,12 +1,12 @@
 # depslib dependency file v1.0
-1617654149 source:e:\projetos c++\exp2\class.cpp
+1617658448 source:e:\projetos c++\exp2\class.cpp
 	"header.hpp"
 	<math.h>
 
-1617654186 e:\projetos c++\exp2\header.hpp
+1617658416 e:\projetos c++\exp2\header.hpp
 	<iostream>
 
-1617654729 source:e:\projetos c++\exp2\main.cpp
+1617658298 source:e:\projetos c++\exp2\main.cpp
 	<iostream>
 	"header.hpp"
 

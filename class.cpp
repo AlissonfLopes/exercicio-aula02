@@ -23,6 +23,11 @@ float Quadrado:: calculaPerimetro()
     return this->largura * 4;
 }
 
+ostream& operator>>(ostream& os, Quadrado &quad)
+{
+    os<<"Altura: "<<quad.altura<< endl<<"Largura: "<<quad.largura<< endl;
+}
+
 Circulo:: Circulo()
 {
     this->raio = 0.0;
@@ -73,6 +78,12 @@ float Cubo:: calculaAreaCubo()
     return temp * 6;
 }
 
+ostream& operator<<(ostream& os, Cubo &cub)
+{
+    os<<"Altura: "<<cub.altura<< endl<<"Largura: "<<cub.largura<< endl<<"Comprimento: "<<cub.comprimento<<endl;
+}
+
+
 Cone:: Cone(float altura, float raio)
 {
     this->altura = altura;
@@ -82,6 +93,11 @@ Cone:: Cone(float altura, float raio)
 float Cone:: calculaVolumeCone()
 {
     return (pi * pow(this->raio, 2) * this->altura) / 3;
+}
+
+ostream& operator==(ostream& os, Cone &con)
+{
+    os<<"Raio: "<<con.raio<< endl<<"Altura: "<<con.altura<< endl;
 }
 
 Cilindro:: Cilindro(float altura, float raio)

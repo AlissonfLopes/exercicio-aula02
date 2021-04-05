@@ -3,6 +3,8 @@
 
 #include <iostream>;
 
+using namespace std;
+
 class Quadrado
 {
 // Valores para altura e largura serão protegidos para que os filhos dessa classe possam acessar
@@ -16,6 +18,7 @@ public:
     Quadrado(float altura, float largura); // Construtor da minha classe
     float calculaArea();
     float calculaPerimetro();
+    friend ostream& operator>>(ostream& os, Quadrado &quad);
 };
 
 class Circulo
@@ -59,6 +62,7 @@ public:
     Cubo(float altura, float largura, float comprimento); // Sobrecarrego construtor
     float calculaVolumeCubo();
     float calculaAreaCubo();
+    friend ostream& operator<<(ostream& os, Cubo &cub);
 };
 
 // Herda de círculo por terem características semelhantes
@@ -70,6 +74,7 @@ protected:
 public:
     Cone(float altura, float raio); // Sobrecarrego construtor
     float calculaVolumeCone();
+    friend ostream& operator==(ostream& os, Cone &con);
 };
 
 // Herda de círculo por terem características semelhantes
