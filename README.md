@@ -2,6 +2,7 @@
 Exercício proposto na matéria de Tópicos Avançados em OO (FHO - Fundação Hermínio Ometto, Araras - SP), sendo desenvolvido em C++.
  
 A proposta feito pelo professor consiste nos seguintes itens:
+
 • A definição de classes e objetos para representar as formas geométricas como retângulos,
 triângulos e outros.
 
